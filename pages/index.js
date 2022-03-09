@@ -1,5 +1,6 @@
 
 import axios from 'axios'
+import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import Rides from '../component/Rides'
 import styles from '../styles/Home.module.css'
@@ -40,7 +41,7 @@ const [uRouteNum,setURouteNum] = useState(0)
          
           <div className='filter-route d-flex alin-items-center dropdown'>
             <div className='dropdown-toggle' id="filter-dropdown" role="button" data-bs-toggle="dropdown">
-                <img src="images/filter.png" style={{width:'24px', height:'25px'}}/>
+                <Image src="images/filter.png" width={24} height={25}/>
                 Filters
             </div>
             <ul className='dropdown-menu' aria-labelledby='filter-dropdown'>

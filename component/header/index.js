@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 function Header() {
@@ -8,7 +9,7 @@ function Header() {
         <div className="logo"><h3>Edvora</h3></div>
         <div className='login'>
           <span className='mx-2'>Dhruv Singh</span>
-          <span className="user-img"><img className="img-fluid" src='images/user.png'/></span>
+          <span className="user-img"><Image className="img-fluid" src='images/user.png'/></span>
         </div>
       </div>
     </div>
