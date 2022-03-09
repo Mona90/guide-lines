@@ -43,6 +43,8 @@ a:hover {
 .header-content .login {
   font-size: 14px;
   text-transform: capitalize;
+  display: flex;
+  align-items: center;
 }
 .header-content .user-img {
   display: inline-block;
