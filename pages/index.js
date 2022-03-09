@@ -41,7 +41,7 @@ const [uRouteNum,setURouteNum] = useState(0)
          
           <div className='filter-route d-flex alin-items-center dropdown'>
             <div className='dropdown-toggle' id="filter-dropdown" role="button" data-bs-toggle="dropdown">
-                <Image src="images/filter.png" width={24} height={25}/>
+                <Image src="images/filter.png" width={24} height={25} alt="icon"/>
                 Filters
             </div>
             <ul className='dropdown-menu' aria-labelledby='filter-dropdown'>
